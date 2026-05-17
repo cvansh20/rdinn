@@ -17,9 +17,10 @@ const Navbar = () => {
     }, []);
 
     const navLinks = [
-        { name: 'The Resort', href: '/#about' },
+        { name: 'About', href: '/#about' },
         { name: 'Rooms', href: '/#rooms' },
-        { name: 'Experiences', href: '/#experiences' },
+        { name: 'Banquet', href: '/#experiences' },
+        { name: 'Restaurant', href: '/#gallery' },
         { name: 'Location', href: '/location' },
         { name: 'Gallery', href: '/#gallery' },
     ];
@@ -36,10 +37,10 @@ const Navbar = () => {
                 >
                     <Link to="/" onClick={closeMobileMenu} className="flex items-center space-x-2 outline-none">
                         <div className="w-10 h-10 border-2 border-accent flex items-center justify-center">
-                            <span className="text-accent font-serif text-xl">M</span>
+                            <span className="text-accent font-serif text-xl">RD</span>
                         </div>
                         <span className={`text-2xl font-serif tracking-[0.2em] uppercase ${isScrolled ? 'text-primary' : 'text-white'}`}>
-                            Mist Peaks
+                            Hotel RD Inn
                         </span>
                     </Link>
                 </motion.div>
