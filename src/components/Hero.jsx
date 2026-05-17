@@ -24,10 +24,8 @@ const Hero = () => {
                 >
                     {/* Main Hero Image - Using a temporary high-quality nature placeholder for now while AI renders */}
                     <img
-                        src={isFoggySeason
-                            ? "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=2070"
-                            : "https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&q=80&w=2070"}
-                        alt="Mountain Lodge"
+                        src="/hero.jpeg"
+                        alt="Home BG"
                         className="h-full w-full object-cover"
                     />
                     <div className={`absolute inset-0 bg-black/30 transition-opacity duration-1000 ${isFoggySeason ? 'opacity-50' : 'opacity-20'}`} />
@@ -67,15 +65,15 @@ const Hero = () => {
                         transition={{ delay: 0.5, duration: 1 }}
                         className="text-accent tracking-[0.4em] uppercase text-sm md:text-base font-medium"
                     >
-                        Luxury Mountain Retreat
+                        Luxury Hotel • Banquet • Rooftop Dining
                     </motion.span>
 
                     <h1 className="text-4xl md:text-8xl lg:text-9xl text-white font-serif leading-tight tracking-tight whitespace-pre-line">
-                        {isFoggySeason ? "Escape Into\nThe Mist" : "Nature In Its\nPurest Form"}
+                        {isFoggySeason ? "Escape Into\nThe Mist" : "Where Luxury Meets\nCelebration ~RD Inn"}
                     </h1>
 
                     <p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed">
-                        Experience the harmony of luxury and wilderness in a setting where every moment feels like a cinematic dream.
+                        Experience premium hospitality, elegant banquet celebrations, rooftop dining, luxury rooms, and unforgettable stays at RD Inn Shahganj.
                     </p>
 
                     <div className="flex flex-col md:flex-row items-center justify-center gap-6 pt-8">
@@ -83,14 +81,14 @@ const Hero = () => {
                             to="/#booking"
                             className="premium-btn group flex items-center gap-2"
                         >
-                            Book Your Stay
+                            Book Your Room
                             <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </Link>
                         <Link
                             to="/#rooms"
                             className="px-8 py-3 bg-white/10 backdrop-blur-md border border-white/20 text-white font-serif text-lg tracking-widest hover:bg-white/20 transition-all uppercase"
                         >
-                            Explore Rooms
+                            View Banquet
                         </Link>
                     </div>
                 </motion.div>
