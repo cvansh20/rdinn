@@ -40,7 +40,7 @@ const Navbar = () => {
                             <span className="text-accent font-serif text-xl">RD</span>
                         </div>
                         <span className={`text-2xl font-serif tracking-[0.2em] uppercase ${isScrolled ? 'text-primary' : 'text-white'}`}>
-                            Hotel RD Inn
+                            RD Inn
                         </span>
                     </Link>
                 </motion.div>
