@@ -1,31 +1,31 @@
 import { motion } from 'framer-motion';
-import luxuryMountainInterior from '../assets/photos/luxury mountain interior.png';
-import forestViewCottage from '../assets/photos/forest view Cottage.png';
+import deluxeRoom from '../assets/photos/deluxe-room.jpg';
+import premiumRoom from '../assets/photos/premium-room.jpg';
 
 const rooms = [
     {
-        title: "Mist View Deluxe Room",
-        description: "Elegant minimal design with floor-to-ceiling windows facing the misty pine valleys.",
-        price: "$450 / night",
-        image: "https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&q=80&w=1000",
+        title: "Standard Room",
+        description: "Elegant interiors with modern comfort, premium bedding, and a relaxing stay experience for families and travelers.",
+        price: "Starting From ₹1,500",
+        image: deluxeRoom,
     },
     {
-        title: "Mountain Panorama Suite",
-        description: "Spacious luxury suite offering 270-degree views of the rugged mountain peaks.",
-        price: "$750 / night",
-        image: luxuryMountainInterior,
+        title: "Deluxe AC Room",
+        description: "Spacious luxury accommodation designed with sophisticated interiors and enhanced comfort for a premium experience.",
+        price: "Starting From ₹1,800",
+        image: premiumRoom,
     },
     {
-        title: "Forest View Cottage",
-        description: "A private retreat nestled deep within the forest, featuring a natural stone fireplace.",
-        price: "$600 / night",
-        image: forestViewCottage,
+        title: "Super Deluxe AC Room",
+        description: "Perfect for families and wedding guests, offering spacious layouts and a warm hospitality experience.",
+        price: "Starting From ₹2,100",
+        image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&q=80&w=1000",
     },
     {
-        title: "Honeymoon Luxury Suite",
-        description: "The ultimate romantic escape with a private heated outdoor pool and mist-view balcony.",
-        price: "$1,200 / night",
-        image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1000",
+        title: "Celebration Stay Package",
+        description: "Luxury stay experience specially curated for weddings, events, celebrations, and memorable occasions at RD Inn.",
+        price: "Custom Packages",
+        image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=1000",
     },
 ];
 
@@ -35,11 +35,11 @@ const Rooms = () => {
             <div className="container mx-auto px-6">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
                     <div className="space-y-4 max-w-2xl">
-                        <span className="text-accent tracking-[0.3em] uppercase text-sm font-medium">Accommodations</span>
-                        <h2 className="text-4xl md:text-6xl font-serif">Sanctuaries of Peace</h2>
+                        <span className="text-accent tracking-[0.3em] uppercase text-sm font-medium">Rooms</span>
+                        <h2 className="text-4xl md:text-6xl font-serif">Luxury Rooms & Suites</h2>
                     </div>
                     <p className="text-background/60 max-w-md font-light">
-                        Each room is designed to be a private sanctuary, blending organic materials with state-of-the-art luxury.
+                        Experience comfort and warm hospitality. Enquire On +91 8299250632
                     </p>
                 </div>
 
