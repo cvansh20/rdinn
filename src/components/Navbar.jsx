@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
@@ -61,6 +61,16 @@ const Navbar = () => {
                         animate={{ opacity: 1, scale: 1 }}
                         className={`premium-btn text-xs px-6 py-2 ${isScrolled ? '' : 'bg-white/10 text-white border border-white/20 hover:bg-accent'}`}
                     >
+                        {/*New Added Call Button 9 line */}
+                        <a
+                          href="tel:+919876543210"
+                          className={`flex items-center gap-2 text-sm tracking-[0.1em] uppercase font-medium transition-colors ${
+                            isScrolled ? 'text-primary' : 'text-white'
+                          } hover:text-accent`}
+                        >
+                          <Phone size={16} />
+                          +91 8299250632
+                        </a>
                         <Link to="/#booking">Book Now</Link>
                     </motion.button>
                 </div>
