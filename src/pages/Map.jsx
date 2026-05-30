@@ -41,18 +41,29 @@ const MapPage = () => {
                             <h3 className="text-2xl font-serif text-primary">Hotel RD Inn</h3>
 
                             <div className="space-y-4 font-light text-primary/70">
-                                <div className="flex items-start gap-4">
+                                <a
+                                    href="https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x399045ce1b03c369:0x2e0438e368161b6a!3e0"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-start gap-4 hover:text-accent transition-colors"
+                                >
                                     <MapPin className="w-6 h-6 text-accent flex-shrink-0" />
-                                    <span>Jaunpur Road,<br />Shahganj, Jaunpur, UP</span>
-                                </div>
-                                <div className="flex items-center gap-4">
+                                    <span>Near V-Mart Jaunpur Road,<br />Shahganj, Jaunpur, UP</span>
+                                </a>
+                                <a
+                                    href="tel:+918299250632"
+                                    className="flex items-center gap-4 hover:text-accent transition-colors"
+                                >
                                     <Phone className="w-6 h-6 text-accent flex-shrink-0" />
                                     <span>+91 8299250632</span>
-                                </div>
-                                <div className="flex items-center gap-4">
+                                </a>
+                                <a
+                                    href="mailto:ershivansh16@gmail.com"
+                                    className="flex items-center gap-4 hover:text-accent transition-colors"
+                                >
                                     <Mail className="w-6 h-6 text-accent flex-shrink-0" />
                                     <span>ershivansh16@gmail.com</span>
-                                </div>
+                                </a>
                                 <div className="flex items-start gap-4 border-t border-primary/5 pt-6 mt-6">
                                     <Clock className="w-6 h-6 text-accent flex-shrink-0" />
                                     <div>
@@ -64,7 +75,14 @@ const MapPage = () => {
                             </div>
                         </div>
 
-                        <button className="premium-btn w-full">Get Directions</button>
+                        <a
+                            href="https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x399045ce1b03c369:0x2e0438e368161b6a!3e0"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="premium-btn w-full block text-center"
+                        >
+                            Get Directions
+                        </a>
                     </motion.div>
 
                     {/* Map Embed */}
