@@ -35,7 +35,14 @@ const About = () => {
                             transition={{ delay: 0.5 }}
                             className="pt-4"
                         >
-                            <button className="secondary-btn">Explore RD Inn</button>
+                            <a
+                              href="https://wa.me/918299250632"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="secondary-btn"
+                            >
+                              Enquire RD Inn
+                            </a>
                         </motion.div>
                     </motion.div>
 
