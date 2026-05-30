@@ -1,29 +1,30 @@
 import { motion } from 'framer-motion';
+import standardRoom from '../assets/photos/standard-room.jpg';
 import deluxeRoom from '../assets/photos/deluxe-room.jpg';
-import premiumRoom from '../assets/photos/premium-room.jpg';
+import SdeluxeRoom from '../assets/photos/Sdeluxe-room.jpg';
 
 const rooms = [
     {
         title: "Standard Room",
         description: "Elegant interiors with modern comfort, premium bedding, and a relaxing stay experience for families and travelers.",
         price: "Starting From ₹1,500",
-        image: deluxeRoom,
+        image: standardRoom,
     },
     {
         title: "Deluxe AC Room",
         description: "Spacious luxury accommodation designed with sophisticated interiors and enhanced comfort for a premium experience.",
         price: "Starting From ₹1,800",
-        image: premiumRoom,
+        image: deluxeRoom,
     },
     {
         title: "Super Deluxe AC Room",
         description: "Perfect for families and wedding guests, offering spacious layouts and a warm hospitality experience.",
         price: "Starting From ₹2,100",
-        image: "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&q=80&w=1000",
+        image: SdeluxeRoom,
     },
     {
-        title: "Celebration Stay Package",
-        description: "Luxury stay experience specially curated for weddings, events, celebrations, and memorable occasions at RD Inn.",
+        title: "Banquet Hall",
+        description: "Curated for weddings, events, celebrations, and memorable occasions at RD Inn.",
         price: "Custom Packages",
         image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=1000",
     },
