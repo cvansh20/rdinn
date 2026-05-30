@@ -20,7 +20,7 @@ const Navbar = () => {
         { name: 'About', href: '/#about' },
         { name: 'Rooms', href: '/#rooms' },
         { name: 'Banquet', href: '/#experiences' },
-        { name: 'Restaurant', href: '/#gallery' },
+        { name: 'Restaurant', href: 'https://capto.app/wxwizs' },
         { name: 'Location', href: '/location' },
         { name: 'Gallery', href: '/#gallery' },
     ];
