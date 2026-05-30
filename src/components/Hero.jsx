@@ -57,7 +57,7 @@ const Hero = () => {
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1.2, ease: "easeOut" }}
-                    className="space-y-6"
+                    className="space-y-3 md:space-y-6"
                 >
                     <motion.span
                         initial={{ opacity: 0 }}
@@ -65,15 +65,15 @@ const Hero = () => {
                         transition={{ delay: 0.5, duration: 1 }}
                         className="text-accent tracking-[0.4em] uppercase text-sm md:text-base font-medium"
                     >
-                        Luxury Hotel • Banquet • Rooftop Dining
+                        Hotel • Banquet • Rooftop
                     </motion.span>
 
-                    <h1 className="text-4xl md:text-8xl lg:text-9xl text-white font-serif leading-tight tracking-tight whitespace-pre-line">
-                        {isFoggySeason ? "Escape Into\nThe Mist" : "Where Luxury Meets\nCelebration ~RD Inn"}
+                    <h1 className="text-2xl md:text-8xl lg:text-9xl text-white font-serif leading-tight tracking-tight whitespace-pre-line">
+                        {isFoggySeason ? "Escape Into\nThe Mist" : "Welcome To\nRD Inn"}
                     </h1>
 
-                    <p className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto font-light leading-relaxed">
-                        Experience premium hospitality, elegant banquet celebrations, rooftop dining, luxury rooms, and unforgettable stays at RD Inn Shahganj.
+                    <p className="text-white/80 text-lg md:text-xl max-w-md mx-auto font-light leading-relaxed">
+                        Premium hotel room, banquet hall, rooftop dining at RD Inn Shahganj.
                     </p>
 
                     <div className="flex flex-col md:flex-row items-center justify-center gap-6 pt-8">
@@ -99,7 +99,7 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 2, duration: 1 }}
-                className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 z-20"
+                className="hidden md:flex absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-3 z-20"
             >
                 <span className="text-white/40 text-[10px] uppercase tracking-[0.3em] vertical-text">Scroll</span>
                 <motion.div
