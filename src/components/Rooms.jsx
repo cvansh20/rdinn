@@ -5,10 +5,10 @@ import SdeluxeRoom from '../assets/photos/Sdeluxe-room.jpg';
 
 const rooms = [
     {
-        title: "Standard Room",
-        description: "Elegant interiors with modern comfort, premium bedding, and a relaxing stay experience for families and travelers.",
-        price: "Starting From ₹1,500",
-        image: standardRoom,
+        title: "Super Deluxe AC Room",
+        description: "Perfect for families and wedding guests, offering spacious layouts and a warm hospitality experience.",
+        price: "Starting From ₹2,100",
+        image: SdeluxeRoom,
     },
     {
         title: "Deluxe AC Room",
@@ -17,10 +17,10 @@ const rooms = [
         image: deluxeRoom,
     },
     {
-        title: "Super Deluxe AC Room",
-        description: "Perfect for families and wedding guests, offering spacious layouts and a warm hospitality experience.",
-        price: "Starting From ₹2,100",
-        image: SdeluxeRoom,
+        title: "Standard Room",
+        description: "Elegant interiors with modern comfort, premium bedding, and a relaxing stay experience for families and travelers.",
+        price: "Starting From ₹1,500",
+        image: standardRoom,
     },
     {
         title: "Banquet Hall",
