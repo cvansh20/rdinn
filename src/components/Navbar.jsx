@@ -43,14 +43,13 @@ const Navbar = () => {
                             RD Inn
                         </span>
                     </Link>
+                    {/* New Phone number button added 7 Iine */}
                     <a
                       href="tel:+918299250632"
-                      className={`ml-6 flex items-center gap-2 text-sm font-medium transition-colors ${
-                        isScrolled ? 'text-primary' : 'text-white'
-                      } hover:text-accent`}
+                      className="ml-6 flex items-center gap-2 whitespace-nowrap font-semibold text-[#D4AF37] hover:text-[#E6C766] transition-colors"
                     >
                       <Phone size={18} />
-                      +91 8299250632
+                      <span>+91 8299250632</span>
                     </a>
                 </motion.div>
 
@@ -65,16 +64,6 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
-                     {/*New Added Call Button 9 line */}
-                        <a
-                          href="tel:+919876543210"
-                          className={`flex items-center gap-2 text-sm tracking-[0.1em] uppercase font-medium transition-colors ${
-                            isScrolled ? 'text-primary' : 'text-white'
-                          } hover:text-accent`}
-                        >
-                          <Phone size={16} />
-                          +91 8299250632
-                        </a>
                     <motion.button
                         initial={{ opacity: 0, scale: 0.9 }}
                         animate={{ opacity: 1, scale: 1 }}
