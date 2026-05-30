@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
-import standardRoom from '../assets/photos/standard-room.jpg';
-import deluxeRoom from '../assets/photos/deluxe-room.jpg';
-import SdeluxeRoom from '../assets/photos/Sdeluxe-room.jpg';
+import standardRoom from '../assets/photos/standard-room.jpeg';
+import deluxeRoom from '../assets/photos/deluxe-room.jpeg';
+import SdeluxeRoom from '../assets/photos/Sdeluxe-room.jpeg';
 
 const rooms = [
     {
