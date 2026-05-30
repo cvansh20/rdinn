@@ -1,3 +1,4 @@
+import { Phone, MessageCircle } from 'lucide-react';
 import { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
@@ -51,6 +52,28 @@ function App() {
           >
             Book
           </Link>
+        </div>
+        {/* Floating Buttons 21 Iine*/}
+        <div className="fixed bottom-6 left-6 z-50 flex flex-col gap-3">
+        
+          {/* WhatsApp */}
+          <a
+            href="https://wa.me/918299250632"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-14 h-14 rounded-full bg-green-500 flex items-center justify-center shadow-xl hover:scale-110 transition"
+          >
+            <MessageCircle size={28} color="white" />
+          </a>
+        
+          {/* Call */}
+          <a
+            href="tel:+918299250632"
+            className="w-14 h-14 rounded-full bg-blue-600 flex items-center justify-center shadow-xl hover:scale-110 transition"
+          >
+            <Phone size={24} color="white" />
+          </a>
+        
         </div>
       </main>
     </Router>
