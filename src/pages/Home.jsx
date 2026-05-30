@@ -1,7 +1,8 @@
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Rooms from '../components/Rooms';
-import Experiences from '../components/Experiences';
+// import Experiences from '../components/Experiences';
+import MapPage from './Map';
 import Gallery from '../components/Gallery';
 // import SeasonalHighlight from '../components/SeasonalHighlight';
 // import Testimonials from '../components/Testimonials';
@@ -13,7 +14,8 @@ const Home = () => {
             <Hero />
             <About />
             <Rooms />
-            <Experiences />
+            {/* <Experiences /> */}
+            <MapPage />
             <Gallery />
             {/* <SeasonalHighlight /> */}
             {/* <Testimonials /> */}
