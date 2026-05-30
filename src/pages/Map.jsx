@@ -23,9 +23,9 @@ const MapPage = () => {
                     className="text-center mb-16 space-y-4"
                 >
                     <span className="text-accent tracking-[0.4em] uppercase text-sm font-medium block">Location</span>
-                    <h1 className="text-5xl md:text-7xl font-serif text-primary">Find Your Way</h1>
+                    <h1 className="text-5xl md:text-7xl font-serif text-primary">Visit RD Inn</h1>
                     <p className="text-primary/60 max-w-2xl mx-auto font-light leading-relaxed">
-                        Mist Peaks is located in the heart of the northern mountain range, accessible via a scenic coastal-to-summit drive.
+                        Hotel RD Inn is located in Shahganj, offering Rooms, Banquet, Rooftop, Restaurant, and any Event spaces for memorable celebrations.
                     </p>
                 </motion.div>
 
@@ -38,27 +38,27 @@ const MapPage = () => {
                         className="space-y-8"
                     >
                         <div className="p-8 bg-white border border-primary/5 shadow-xl space-y-6">
-                            <h3 className="text-2xl font-serif text-primary">Mist Peaks Resort</h3>
+                            <h3 className="text-2xl font-serif text-primary">Hotel RD Inn</h3>
 
                             <div className="space-y-4 font-light text-primary/70">
                                 <div className="flex items-start gap-4">
                                     <MapPin className="w-6 h-6 text-accent flex-shrink-0" />
-                                    <span>1200 Peakview Drive,<br />Mist Valley, Northern Hills</span>
+                                    <span>Jaunpur Road,<br />Shahganj, Jaunpur, UP</span>
                                 </div>
                                 <div className="flex items-center gap-4">
                                     <Phone className="w-6 h-6 text-accent flex-shrink-0" />
-                                    <span>+1 (800) MIST-PEAK</span>
+                                    <span>+91 8299250632</span>
                                 </div>
                                 <div className="flex items-center gap-4">
                                     <Mail className="w-6 h-6 text-accent flex-shrink-0" />
-                                    <span>concierge@mistpeaks.com</span>
+                                    <span>ershivansh16@gmail.com</span>
                                 </div>
                                 <div className="flex items-start gap-4 border-t border-primary/5 pt-6 mt-6">
                                     <Clock className="w-6 h-6 text-accent flex-shrink-0" />
                                     <div>
                                         <p className="font-serif text-primary mb-1 text-sm uppercase tracking-wider">Check-in / Check-out</p>
-                                        <p>Check-in: 02:00 PM</p>
-                                        <p>Check-out: 11:00 AM</p>
+                                        <p>Check-in: 11:00 AM</p>
+                                        <p>Check-out: 10:00 AM</p>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ const MapPage = () => {
                     >
                         {/* Embedded Google Map Placeholder - In a real app, this would be an iframe */}
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000!2d-121.5!3d47.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDM2JzAwLjAiTiAxMjHCsDMwJzAwLjAiVw!5e0!3m2!1sen!2sus!4v1234567890"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.8904633412894!2d82.68052607524044!3d26.037139777179853!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399045ce1b03c369%3A0x2e0438e368161b6a!2sHotel%20RD%20Inn!5e0!3m2!1sen!2sin!4v1780177070967!5m2!1sen!2sin"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
