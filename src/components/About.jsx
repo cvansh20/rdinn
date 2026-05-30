@@ -51,7 +51,7 @@ const About = () => {
                             <img
                                 src={rdInnAbout}
                                 alt="Luxury Mountain Interior"
-                                className="w-full h-full object-cover grayscale-[20%] hover:scale-110 transition-transform duration-1000"
+                                className="w-full h-full object-contain grayscale-[20%] hover:scale-110 transition-transform duration-1000"
                             />
                         </motion.div>
 
