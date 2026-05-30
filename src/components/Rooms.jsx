@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import standardRoom from '../assets/photos/standard-room.jpeg';
 import deluxeRoom from '../assets/photos/deluxe-room.jpeg';
 import SdeluxeRoom from '../assets/photos/Sdeluxe-room.jpeg';
+import banquetStage from '../assets/photos/banquet-stage.png';
 
 const rooms = [
     {
@@ -26,7 +27,7 @@ const rooms = [
         title: "Banquet Hall",
         description: "Curated for weddings, events, celebrations, and memorable occasions at RD Inn.",
         price: "Custom Packages",
-        image: "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&q=80&w=1000",
+        image: banquetStage,
     },
 ];
 
