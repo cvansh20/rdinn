@@ -43,6 +43,15 @@ const Navbar = () => {
                             RD Inn
                         </span>
                     </Link>
+                    <a
+                      href="tel:+918299250632"
+                      className={`ml-6 flex items-center gap-2 text-sm font-medium transition-colors ${
+                        isScrolled ? 'text-primary' : 'text-white'
+                      } hover:text-accent`}
+                    >
+                      <Phone size={18} />
+                      +91 8299250632
+                    </a>
                 </motion.div>
 
                 {/* Desktop Menu */}
@@ -56,12 +65,7 @@ const Navbar = () => {
                             {link.name}
                         </Link>
                     ))}
-                    <motion.button
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        className={`premium-btn text-xs px-6 py-2 ${isScrolled ? '' : 'bg-white/10 text-white border border-white/20 hover:bg-accent'}`}
-                    >
-                        {/*New Added Call Button 9 line */}
+                     {/*New Added Call Button 9 line */}
                         <a
                           href="tel:+919876543210"
                           className={`flex items-center gap-2 text-sm tracking-[0.1em] uppercase font-medium transition-colors ${
@@ -71,6 +75,11 @@ const Navbar = () => {
                           <Phone size={16} />
                           +91 8299250632
                         </a>
+                    <motion.button
+                        initial={{ opacity: 0, scale: 0.9 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        className={`premium-btn text-xs px-6 py-2 ${isScrolled ? '' : 'bg-white/10 text-white border border-white/20 hover:bg-accent'}`}
+                    >
                         <Link to="/#booking">Book Now</Link>
                     </motion.button>
                 </div>
