@@ -3,8 +3,8 @@ import About from '../components/About';
 import Rooms from '../components/Rooms';
 import Experiences from '../components/Experiences';
 import Gallery from '../components/Gallery';
-import SeasonalHighlight from '../components/SeasonalHighlight';
-import Testimonials from '../components/Testimonials';
+// import SeasonalHighlight from '../components/SeasonalHighlight';
+// import Testimonials from '../components/Testimonials';
 import Booking from '../components/Booking';
 
 const Home = () => {
@@ -15,8 +15,8 @@ const Home = () => {
             <Rooms />
             <Experiences />
             <Gallery />
-            <SeasonalHighlight />
-            <Testimonials />
+            {/* <SeasonalHighlight /> */}
+            {/* <Testimonials /> */}
             <Booking />
         </>
     );
