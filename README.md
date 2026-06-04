@@ -1,20 +1,12 @@
-# 🏔️ Mist Peaks - Luxury Mountain Resort
+# HOTEL RD INN
 
-A cinematic, ultra-premium mountain resort website built with React, Tailwind CSS v4, and Framer Motion. This project features immersive storytelling, seasonal fog animations, and a sophisticated design system.
+A venue for room, banquet and restaurant.
 
-![Mist Peaks Preview](/public/image.png)
+![Mist Peaks Preview](/public/hero.jpeg)
 
 ## ✨ Key Features
 
-- **🎭 Cinematic Hero Experience**: Immersive fullscreen visuals with Ken Burns effect and "Escape Into the Mist" storytelling.
-- **🌫️ Seasonal Fog Atmosphere**: A custom React hook detects the current month and applies a cinematic fog overlay during November, December, and January.
-- **🗺️ Multi-Page Navigation**: Dedicated Home and Location/Map pages connected via React Router.
-- **✨ Custom Glow Cursor**: A bespoke interactive cursor effect that reacts to hover states for a premium touch.
-- **🍱 Luxury Design System**:
-  - **Colors**: Deep Forest Green, Mist Gray, and Soft Gold palette.
-  - **Typography**: Elegant Cinzel and Playfair Display headings with Inter body text.
-- **📱 Ultra-Responsive**: Meticulously optimized for all devices, from mobile to large desktop displays.
-- **🖱️ Smooth Interactions**: Scroll-triggered animations, parallax effects, and glassmorphism UI elements.
+- **🎭 Cinematic Hero Experience**: Immersive fullscreen visuals with Ken Burns effect and "RD INN" storytelling.
 
 ## 🛠️ Tech Stack
 
@@ -30,29 +22,6 @@ A cinematic, ultra-premium mountain resort website built with React, Tailwind CS
 
 - Node.js (v18 or higher)
 - npm or yarn
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/mountain-resort.git
-   cd mountain-resort
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Build for production:
-   ```bash
-   npm run build
-   ```
 
 ## 📂 Project Structure
 
@@ -71,4 +40,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-*Designed and Developed for the ultimate luxury mountain experience.*
+*Designed and Developed for my RD Inn ~SHIVANSH.*
