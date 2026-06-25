@@ -78,17 +78,14 @@ const Hero = () => {
 
                     <div className="flex flex-col md:flex-row items-center justify-center gap-6 pt-8">
                         <a
-                          href="https://www.makemytrip.com/hotels/hotel-details?hotelId=202604240248389544&checkin=date_3&checkout=date_4&country=IN&city=CTSHAHG&roomStayQualifier=2e0e&openDetail=true&currency=ENG&region=IN&checkAvailability=true&locusId=CTSHAHG&locusType=city&homestay=true&zcp=f85fb4bb13e7"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="bg-[#008CFF] hover:bg-[#0070CC] text-white px-8 py-4 rounded-md font-semibold transition-all duration-300 shadow-lg flex items-center gap-2"
+                            href="https://www.makemytrip.com/hotels/hotel-details?hotelId=202604240248389544&checkin=date_3&checkout=date_4&country=IN&city=CTSHAHG&roomStayQualifier=2e0e&openDetail=true&currency=ENG&region=IN&checkAvailability=true&locusId=CTSHAHG&locusType=city&homestay=true&zcp=f85fb4bb13e7"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="premium-btn group flex items-center gap-2"
                         >
-                          Book Room on MMT
-                          <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                            Book Room on MMT
+                            <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                         </a>
-                        <span className="text-xs uppercase tracking-[0.2em] text-white/60">
-                            Official MakeMyTrip Partner
-                        </span>
                         <Link
                             to="/#rooms"
                             className="px-8 py-3 bg-white/10 backdrop-blur-md border border-white/20 text-white font-serif text-lg tracking-widest hover:bg-white/20 transition-all uppercase"
